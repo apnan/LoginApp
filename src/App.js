@@ -11,8 +11,21 @@ function App() {
   const Login = details => {
     //4.get data
     console.log(details);
-    setUser({
-      email: details.email
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                                   setUser({
+                       email: details.email
     });
   }
 

@@ -4,11 +4,16 @@
     "description": "REST API",
     "main": "app.js",
     "scripts": {
-        "start": "nodemon app.js"
+        "start": "nodemon app.js",
+        "prepare": "npm run build && node lib/bin install"
+
     },
     "keywords": [
         "Nodejs",
-        "Mongodb"
+        "Mongodb",
+        "git",
+        "hooks",
+        "pre-commit"
     ],
     "author": "Aristote Ngoy",
     "license": "ISC",
